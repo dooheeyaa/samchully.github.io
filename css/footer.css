@@ -1,0 +1,93 @@
+.footer {
+  min-width: 980px;
+  background: #495860;
+  height: 150px;
+  border-top: 1px solid #4c5e6a;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__box {
+  position: relative;
+  width: 980px;
+  height: 150px;
+}
+
+.footer__logo-box {
+  position: absolute;
+  top: 27px;
+}
+
+.footer__menu-list {
+  display: flex;
+  position: absolute;
+  top: 27px;
+  left: 150px;
+}
+
+.footer__menu a {
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #a0aab0;
+  background: url(https://www.samchully.co.kr/assets/img/footer/bg_footer_2.gif)
+    no-repeat 0 2px;
+}
+
+.footer__menu--white a {
+  color: white;
+  background: none;
+}
+
+.footer__menu a:hover {
+  color: white;
+}
+
+.footer__search-box {
+  display: flex;
+  position: absolute;
+  top: 27px;
+  right: 0;
+}
+
+.footer__search {
+  width: 180px;
+  height: 30px;
+  margin-right: 4px;
+}
+
+.footer__search-btn {
+  display: block;
+  background-image: url(https://www.samchully.co.kr/assets/img/common/btn_confirm_3.gif);
+  width: 50px;
+  height: 30px;
+}
+
+.footer__info {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  height: 40px;
+}
+
+.footer__address {
+  font-size: 12px;
+  color: #a0aab0;
+  padding-bottom: 3px;
+}
+
+.footer__copy {
+  color: #a0aab0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.footer__img-box {
+  position: absolute;
+  left: 485px;
+  top: 70px;
+}
+
+.footer__img-box img {
+  margin-right: 19px;
+}

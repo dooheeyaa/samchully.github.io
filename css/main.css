@@ -1,0 +1,352 @@
+.main__visual-container {
+  display: flex;
+  justify-content: center;
+  min-width: 980px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.main__visual-box {
+  height: 600px;
+  width: 1900px;
+  background-image: url(https://www.samchully.co.kr/assets/img/main/bg_visual_1.jpg);
+  background-position: center;
+  position: relative;
+}
+
+.main__visual-title {
+  width: 1900px;
+  height: 200px;
+  padding-top: 70px;
+  padding-left: 500px;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #000;
+}
+
+.main__menu-box {
+  width: 980px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 490px;
+  left: 450px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main__menu-link {
+  text-decoration: none;
+  display: block;
+  margin: 17px 10px;
+}
+
+.main__menu-item-box {
+  display: flex;
+  width: 120px;
+  height: 40px;
+}
+
+.main__menu-icon {
+  transform: scale(0.8);
+}
+
+.main__menu-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.main__menu-title--01 {
+  padding-left: 20px;
+}
+
+.main__menu-search-box {
+  display: flex;
+  width: 138px;
+  height: 38px;
+  margin: 17px 0;
+  background-color: #fff;
+  transform: translateX(-10%);
+}
+
+#main__menu-search {
+  width: 100px;
+  height: 38px;
+  border: none;
+}
+
+.main__menu-search-btn {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__menu-search-btn2 {
+  display: block;
+  width: 120px;
+  height: 40px;
+  background-image: url(https://www.samchully.co.kr/assets/img/main/btn_search01.gif);
+  margin: 17px 10px;
+  transform: translateX(-10%);
+}
+
+/* 메인 콘텐츠 영역 */
+.main__content-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 980px;
+  height: 250px;
+}
+
+.main__content-box {
+  display: flex;
+  width: 980px;
+  height: 250px;
+}
+
+.main__content-01 {
+  position: relative;
+  width: 270px;
+  height: 250px;
+  box-sizing: border-box;
+}
+
+.main__content-01 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main__content-02 {
+  position: relative;
+  width: 440px;
+  height: 250px;
+  background-color: #0697e1;
+}
+
+.main__content-03 {
+  position: relative;
+  width: 270px;
+  height: 250px;
+  background-color: #007cbc;
+}
+
+.main__content-title {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #fff;
+}
+
+.main__content-des {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.main__content-date {
+  position: absolute;
+  top: 180px;
+  left: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.main__content-progress-bar-box {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  top: 42px;
+  width: 120px;
+  height: 12px;
+}
+
+.main__content-progress-bar {
+  margin-left: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  outline: 2px solid #105b97;
+  background-color: #1a90d5;
+}
+
+.main__content-progress-bar:hover {
+  outline: 2px solid white;
+  background-color: white;
+  cursor: grab;
+}
+
+.main__content-02-img-box {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  width: 200px;
+  height: 133px;
+}
+
+.main__content-02-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main__content-des-03 {
+  top: 150px;
+}
+
+.main__content-03-icon {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  width: 20px;
+  height: 20px;
+}
+
+/* 두번째 */
+.main__content-small {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  color: #666;
+  line-height: 18px;
+}
+
+.main__content-big {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  font-size: 22px;
+  line-height: 23px;
+  font-weight: bold;
+}
+
+.main__content-02--gray {
+  background-color: #f0f3f4;
+}
+
+.main__content-title--gray,
+.main__content-des--gray,
+.main__content-date--gray {
+  color: black;
+}
+
+.main__content-des--gray {
+  font-size: 17px;
+}
+
+.main__content-progress-bar--gray {
+  background-color: #f0f3f4;
+  outline: 2px solid #888888;
+}
+
+.main__content-progress-bar--gray:hover {
+  background-color: #888888;
+}
+
+.main__content-more {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: #888888;
+  outline: 2px solid #888888;
+}
+
+.main__content-more-tr {
+  position: absolute;
+  top: 40px;
+  right: 25px;
+  transform: scale(1.5);
+}
+
+/* 메인 컨택트 영역 */
+.main__contact {
+  display: flex;
+  margin: 0 auto;
+  width: 980px;
+  height: 140px;
+}
+
+.main__contact-item {
+  padding-top: 39px;
+  padding-left: 15px;
+}
+
+.main__contact-item-01 {
+  width: 150px;
+  height: 140px;
+}
+
+.main__contact-item-02,
+.main__contact-item-03 {
+  width: 160px;
+  height: 140px;
+}
+
+.main__contact-item-04 {
+  width: 170px;
+}
+
+.main__contact-item-05 {
+  width: 175px;
+}
+
+.main__contact-item-06 {
+  width: 165px;
+  padding-left: 5px;
+}
+
+.main__contact-link {
+  display: block;
+  position: relative;
+  min-width: 135px;
+  height: 58px;
+  text-decoration: none;
+}
+
+.main__contact-link img {
+  position: absolute;
+  right: 2px;
+}
+
+.main__contact-link strong {
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+.main__contact-link strong:hover {
+  color: #007cbc;
+}
+
+.main__contact-link div {
+  position: absolute;
+  bottom: 4px;
+  font-size: 12px;
+  color: #757575;
+}
+
+.main__contact-link div:hover {
+  color: #007cbc;
+}
+
+.main__contact-tel {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+}
